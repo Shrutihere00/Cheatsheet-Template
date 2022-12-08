@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Potta+One&family=Roboto&display=swap');
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Potta One', cursive;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;padding: 0;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #272822;
+    color:white;
+    height: 72px ;
+    font-size:1.5rem;
+}
+.logo{
+    padding:0 23px ;
+    font-family: 'Potta One', cursive;
+}
+.container{
+    width:50vw;
+    padding:32px 0;
+    margin:auto;font-family: 'Roboto', sans-serif; 
+
+}
+.container ol{
+    font-weight:bold;
+}
+.logo i{
+    font-size:40px;
+}
+.toolbar-item button{
+    cursor:pointer;
+    color:white !important;
+    border:1px solid white !important;
+    padding:5px 14px  !important;
+    border-radius: 15px !important;
+
+}
